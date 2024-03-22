@@ -1,9 +1,12 @@
 import './App.css'
+import AssinaturaNewsletter from './components/AssinaturaNewsletter/AssinaturaNewsletter'
+import Menu from './components/Menu/Menu'
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Menu />
+      <AssinaturaNewsletter />
     </>
   )
 }
