@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-container {
+    max-width: 50%;
+}
+
+.text-top {
+    font-size: 1.375rem;
+    color: #8B8B8B;
+}
+
+.text-middle {
+    margin-top: 12px;
+    font-family: "Elsie Swash Caps", serif;
+    color: #202020;
+    font-size: 5.125rem;
+}
+
+.text-bottom {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    font-size: 1rem;
+    color: #8B8B8B;
+}
