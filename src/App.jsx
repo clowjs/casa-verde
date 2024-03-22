@@ -1,5 +1,5 @@
 import './App.css'
-import AssinaturaNewsletter from './components/AssinaturaNewsletter/AssinaturaNewsletter'
+import Hero from './components/Hero/Hero'
 import Menu from './components/Menu/Menu'
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Menu links={links} />
-      <AssinaturaNewsletter />
+      <Hero />
     </>
   )
 }
