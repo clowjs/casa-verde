@@ -3,9 +3,18 @@ import AssinaturaNewsletter from './components/AssinaturaNewsletter/AssinaturaNe
 import Menu from './components/Menu/Menu'
 
 function App() {
+
+  const links = [
+    { url: '#', text: 'Como fazer' },
+    { url: '#', text: 'Ofertas' },
+    { url: '#', text: 'Depoimentos' },
+    { url: '#', text: 'Videos' },
+    { url: '#', text: 'Meu carrinho' },
+  ]
+
   return (
     <>
-      <Menu />
+      <Menu links={links} />
       <AssinaturaNewsletter />
     </>
   )
