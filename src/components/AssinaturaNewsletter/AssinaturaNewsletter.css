@@ -23,6 +23,10 @@ input::placeholder {
   color: #BCBCBC;
 }
 
+input:focus{
+  outline: none;
+}
+
 .newsletter-container {
   display: flex;
   align-items: center;
