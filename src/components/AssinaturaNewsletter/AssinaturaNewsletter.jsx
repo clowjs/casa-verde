@@ -1,8 +1,12 @@
+import './AssinaturaNewsletter.css';
+
 function AssinaturaNewsletter() {
   return (
-    <>
-      <h1>AssinaturaNewsletter Component</h1>
-    </>
+    <div className='newsletter-container'>
+      <img src="./icon-email.svg" alt="" />
+      <input type="email" placeholder="Insira seu e-mail" />
+      <button>Assinar newsletter</button>
+    </div>
   )
 }
 

@@ -1,0 +1,30 @@
+button {
+  height: 75px;
+  background-color: #FFCB47;
+  padding: 0 24px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  box-shadow: 10px 10px 30px 0 rgba(255, 203, 71, 0.3);
+  flex-grow: 0;
+}
+
+input {
+  border: none;
+  font-size: 1rem;
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  flex-grow: 1;
+}
+
+input::placeholder {
+  color: #BCBCBC;
+}
+
+.newsletter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
