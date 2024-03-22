@@ -1,8 +1,21 @@
+import './Menu.css';
+
 function Menu() {
   return (
-    <>
-      <h1>Menu Component</h1>
-    </>
+    <header>
+      <img src="/logo-header.svg" alt="" />
+      <div className="links">
+        <a href="#">Como fazer</a>
+        <span> / </span>
+        <a href="#">Ofertas</a>
+        <span> / </span>
+        <a href="#">Depoimentos</a>
+        <span> / </span>
+        <a href="#">Videos</a>
+        <span> / </span>
+        <a href="#">Meu carrinho</a>
+      </div>
+    </header>
   )
 }
 
